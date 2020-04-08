@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lyscharlie.search.SearchApplication;
+import com.lyscharlie.search.SpringBootSearchApplication;
 import com.lyscharlie.search.elasticsearch.ElasticsearchClientFactory;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SearchApplication.class)
+@SpringBootTest(classes = SpringBootSearchApplication.class)
 public class SearchTest {
 
 	@Autowired

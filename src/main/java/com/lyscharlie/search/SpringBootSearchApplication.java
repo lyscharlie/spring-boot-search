@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.lyscharlie.search.biz.mapper")
-public class SearchApplication {
+public class SpringBootSearchApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SearchApplication.class, args);
+		SpringApplication.run(SpringBootSearchApplication.class, args);
 	}
 
 }
