@@ -35,7 +35,7 @@ spring:
       max-pool-prepared-statement-per-connection-size: 20
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
+    time-zone: Asia/Shanghai
 
 mybatis-plus:
   global-config:
